@@ -26,7 +26,9 @@ title: Update Spreadsheet
     var $org = getUrlVar('org');
     var $repo = getUrlVar('repo');
     var $branch = getUrlVar('branch');
-
+    
+    alert("This is an alert" + key + "\t" + resource + "\t" + org + "\t" + repo + "\t" + branch);
+    
     var $yaml_store = "";
 
     if($oAuthToken !='')

@@ -20,13 +20,19 @@ title: Update Spreadsheet
     // URL: https://[user/org].github.io/[repo]/pull-sheet/?key=your_key&worksheet=worksheet_name&token=your_personal_access_token&org=your_org&repo=your_repo&branch=your_branch
 
     // Incoming Variables append
-    var $key = getUrlVar('key');
-    var $resource = getUrlVar('worksheet');
-    var $oAuthToken = getUrlVar('token');
-    var $org = getUrlVar('org');
-    var $repo = getUrlVar('repo');
-    var $branch = getUrlVar('branch');
-    
+//     var $key = getUrlVar('key');
+//     var $resource = getUrlVar('worksheet');
+//     var $oAuthToken = getUrlVar('token');
+//     var $org = getUrlVar('org');
+//     var $repo = getUrlVar('repo');
+//     var $branch = getUrlVar('branch');
+
+    var $key = "14bBvjJZOv2qfui0vCWIFSUJqutio1h9jqjj88LdbzR0";
+    var $resource = "Subtasks_Info";
+    var $oAuthToken = "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";
+    var $org = "sampreeth-sarma";
+    var $repo = "ABSA-Datasets-Info";
+    var $branch = "master";
     alert("This is an alert" + key + "\t" + resource + "\t" + org + "\t" + repo + "\t" + branch);
     
     var $yaml_store = "";
